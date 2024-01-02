@@ -26,7 +26,7 @@ function preloadImages(callback) {
 // Factory to make a PacMan
 function makePac() {
   let velocity = setToRandom(20);
-  let position = setToRandom(200);
+  let position = setToRandom(180);
 
   // Add image to div id = game
   let game = document.getElementById('game');
